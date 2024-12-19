@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "project_name": "Random Quote Generator",
+            "description": "A Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://kr4sh3.github.io/techdegree-project-1-random-quote-generator/",
+            "github_link": "https://github.com/Kr4sh3/techdegree-project-1-random-quote-generator",
+            "thumbnail": "/images/project-1/project-1.png",
+            "image_urls": ["/images/project-1/techdegree-project-1.png"]
+        },
+        {
+            "id": "2",
+            "project_name": "Data Pagination and Filtering",
+            "description": "Team Treehouse Techdegree Project built to display proficiency with data pagination and filtering.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://kr4sh3.github.io/techdegree-project-2-data-pagination/",
+            "github_link": "https://github.com/Kr4sh3/techdegree-project-2-data-pagination",
+            "thumbnail": "/images/project-2/project-2.png",
+            "image_urls": ["/images/project-2/techdegree-project-2.png"]
+        },
+        {
+            "id": "3",
+            "project_name": "Interactive Form",
+            "description": "Team Treehouse Techdegree Project built to display proficiency with building interactive forms that validate user input.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://kr4sh3.github.io/techdegree-project-3-interactive-form/",
+            "github_link": "https://github.com/Kr4sh3/techdegree-project-3-interactive-form",
+            "thumbnail": "/images/project-3/project-3.png",
+            "image_urls": ["/images/project-3/techdegree-project-3.png"]
+        },
+        {
+            "id": "4",
+            "project_name": "OOP Game Show App",
+            "description": "Team Treehouse Techdegree Project built to display proficiency with object oriented programming with javascript.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://kr4sh3.github.io/techdegree-project-4-oop-gameshow/",
+            "github_link": "https://github.com/Kr4sh3/techdegree-project-4-oop-gameshow",
+            "thumbnail": "/images/project-4/project-4.png",
+            "image_urls": ["/images/project-4/techdegree-project-4-1.png","/images/project-4/techdegree-project-4-2.png","/images/project-4/techdegree-project-4-3.png"]
+        },
+        {
+            "id": "5",
+            "project_name": "Public API Requests and Modals",
+            "description": "Team Treehouse Techdegree Project built to display proficiency with utilizing public api requests and modals.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://kr4sh3.github.io/techdegree-project-5-public-api-request/",
+            "github_link": "https://github.com/Kr4sh3/techdegree-project-5-public-api-request",
+            "thumbnail": "/images/project-5/project-5.png",
+            "image_urls": ["/images/project-5/techdegree-project-5-1.png","/images/project-5/techdegree-project-5-2.png","/images/project-5/techdegree-project-5-3.png"]
+        }
+    ]
+}
