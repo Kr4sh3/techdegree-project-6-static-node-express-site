@@ -16,7 +16,12 @@ app.get('/about', (req, res) => {
   res.render('about.pug');
 });
 
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
+  if (req.params.id > data.projects.length || req.params.id < 1) {
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+  }
   res.locals.project_name = data.projects[req.params.id - 1].project_name;
   res.locals.description = data.projects[req.params.id - 1].description;
   res.locals.technologies = data.projects[req.params.id - 1].technologies;
