@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   err.message = err.message || 'Oops! It looks like something went wrong on the server.';
   err.status = err.status || 500;
-  res.status(err.status).render('error.pug', { err });
+  err.status === 404 ? res.status(404).render('page-not-found.pug', { err }) : res.status(err.status).render('error.pug', { err });
   console.log("Error handler called: Status " + err.status);
 });
 
