@@ -31,6 +31,11 @@ app.get('/project/:id', (req, res, next) => {
   res.render('project.pug');
 });
 
+app.get('/favicon.ico', (req, res) => {
+  res.send('No favicon here');
+});
+
+
 //Error handler for non-existent routes
 app.use((req, res, next) => {
   const err = new Error('Not Found');
