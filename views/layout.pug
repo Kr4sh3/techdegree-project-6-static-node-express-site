@@ -6,8 +6,8 @@ html(lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Jesse Martin's Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/css/normalize.css')
-    link(rel='stylesheet', href='/css/styles.css')
+    link(rel='stylesheet', href='/static/css/normalize.css')
+    link(rel='stylesheet', href='/static/css/styles.css')
 
   body
     #my-info.sidebar
@@ -15,7 +15,7 @@ html(lang="en" dir="ltr")
         br
         .thumbnail-box
           //img.thumbnail(src='https://placehold.it/550x550', alt='')
-          img.thumbnail(src='/images/jesse-martin-profile-picture.png', alt='Picture of Jesse Martin')
+          img.thumbnail(src='/static/images/jesse-martin-profile-picture.png', alt='Picture of Jesse Martin')
         .dev-intro-box
 
           //- Replace with your name
@@ -37,4 +37,4 @@ html(lang="en" dir="ltr")
 
       block content
 
-  script(src='/js/script.js')
+  script(src='/static/js/script.js')

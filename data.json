@@ -7,8 +7,8 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kr4sh3.github.io/techdegree-project-1-random-quote-generator/",
             "github_link": "https://github.com/Kr4sh3/techdegree-project-1-random-quote-generator",
-            "thumbnail": "/images/project-1/project-1.png",
-            "image_urls": ["/images/project-1/techdegree-project-1.png"]
+            "thumbnail": "/static/images/project-1/project-1.png",
+            "image_urls": ["/static/images/project-1/techdegree-project-1.png"]
         },
         {
             "id": "2",
@@ -17,8 +17,8 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kr4sh3.github.io/techdegree-project-2-data-pagination/",
             "github_link": "https://github.com/Kr4sh3/techdegree-project-2-data-pagination",
-            "thumbnail": "/images/project-2/project-2.png",
-            "image_urls": ["/images/project-2/techdegree-project-2.png"]
+            "thumbnail": "/static/images/project-2/project-2.png",
+            "image_urls": ["/static/images/project-2/techdegree-project-2.png"]
         },
         {
             "id": "3",
@@ -27,8 +27,8 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kr4sh3.github.io/techdegree-project-3-interactive-form/",
             "github_link": "https://github.com/Kr4sh3/techdegree-project-3-interactive-form",
-            "thumbnail": "/images/project-3/project-3.png",
-            "image_urls": ["/images/project-3/techdegree-project-3.png"]
+            "thumbnail": "/static/images/project-3/project-3.png",
+            "image_urls": ["/static/images/project-3/techdegree-project-3.png"]
         },
         {
             "id": "4",
@@ -37,8 +37,8 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kr4sh3.github.io/techdegree-project-4-oop-gameshow/",
             "github_link": "https://github.com/Kr4sh3/techdegree-project-4-oop-gameshow",
-            "thumbnail": "/images/project-4/project-4.png",
-            "image_urls": ["/images/project-4/techdegree-project-4-1.png","/images/project-4/techdegree-project-4-2.png","/images/project-4/techdegree-project-4-3.png"]
+            "thumbnail": "/static/images/project-4/project-4.png",
+            "image_urls": ["/static/images/project-4/techdegree-project-4-1.png","/static/images/project-4/techdegree-project-4-2.png","/static/images/project-4/techdegree-project-4-3.png"]
         },
         {
             "id": "5",
@@ -47,8 +47,8 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kr4sh3.github.io/techdegree-project-5-public-api-request/",
             "github_link": "https://github.com/Kr4sh3/techdegree-project-5-public-api-request",
-            "thumbnail": "/images/project-5/project-5.png",
-            "image_urls": ["/images/project-5/techdegree-project-5-1.png","/images/project-5/techdegree-project-5-2.png","/images/project-5/techdegree-project-5-3.png"]
+            "thumbnail": "/static/images/project-5/project-5.png",
+            "image_urls": ["/static/images/project-5/techdegree-project-5-1.png","/static/images/project-5/techdegree-project-5-2.png","/static/images/project-5/techdegree-project-5-3.png"]
         }
     ]
 }

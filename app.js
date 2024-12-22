@@ -3,7 +3,7 @@ const app = express();
 const port = 80;
 
 app.set('view engine', 'pug');
-app.use(express.static('public'));
+app.use('/static',express.static('public'));
 
 const data = require('./data.json');
 
@@ -27,8 +27,6 @@ app.get('/project/:id', (req, res) => {
   res.render('project.pug');
 });
 
-/*
-
 //Error handler for non-existent routes
 app.use((req, res, next) => {
   const err = new Error('Not Found');
@@ -47,7 +45,6 @@ app.use((err, req, res, next) => {
   }
 });
 
-*/
 app.listen(port, () => {
   console.log(`app.js listening on port ${port}`);
 });
