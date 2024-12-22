@@ -7,8 +7,7 @@ app.use('/static', express.static('public'));
 
 const data = require('./data.json');
 
-
-app.get('/', (req, res, next) => {
+app.get('/', (req, res) => {
   res.locals.projects = data.projects;
   res.render('index.pug');
 });
@@ -36,10 +35,16 @@ app.use((req, res, next) => {
 
 //Error handler for server errors
 app.use((err, req, res, next) => {
-  err.message = err.message || 'Oops! It looks like something went wrong on the server.';
-  err.status = err.status || 500;
-  err.status === 404 ? res.status(404).render('page-not-found.pug', { err }) : res.status(err.status).render('error.pug', { err });
-  console.log("Error handler called: Status " + err.status);
+  if (err.status === 404) {
+    console.log("404 Error Handler called");
+    console.log(err.message);
+    res.status(404).render('page-not-found.pug', { err })
+  } else {
+    err.message = err.message || 'Oops! It looks like something went wrong on the server.';
+    console.log("500 Error Handler called");
+    console.log(err.message);
+    res.status(err.status).render('error.pug', { err });
+  }
 });
 
 app.listen(port, () => {
