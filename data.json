@@ -14,7 +14,7 @@
             "id": "2",
             "project_name": "Data Pagination and Filtering",
             "description": "Team Treehouse Techdegree Project built to display proficiency with data pagination and filtering.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": ["HTML", "CSS", "JavaScript", "Pagination"],
             "live_link": "https://kr4sh3.github.io/techdegree-project-2-data-pagination/",
             "github_link": "https://github.com/Kr4sh3/techdegree-project-2-data-pagination",
             "thumbnail": "/static/images/project-2/project-2.png",
@@ -24,7 +24,7 @@
             "id": "3",
             "project_name": "Interactive Form",
             "description": "Team Treehouse Techdegree Project built to display proficiency with building interactive forms that validate user input.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": ["HTML", "CSS", "JavaScript", "Regular Expressions"],
             "live_link": "https://kr4sh3.github.io/techdegree-project-3-interactive-form/",
             "github_link": "https://github.com/Kr4sh3/techdegree-project-3-interactive-form",
             "thumbnail": "/static/images/project-3/project-3.png",
@@ -34,7 +34,7 @@
             "id": "4",
             "project_name": "OOP Game Show App",
             "description": "Team Treehouse Techdegree Project built to display proficiency with object oriented programming with javascript.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": ["HTML", "CSS", "JavaScript", "Object Oriented Programming"],
             "live_link": "https://kr4sh3.github.io/techdegree-project-4-oop-gameshow/",
             "github_link": "https://github.com/Kr4sh3/techdegree-project-4-oop-gameshow",
             "thumbnail": "/static/images/project-4/project-4.png",
@@ -44,11 +44,31 @@
             "id": "5",
             "project_name": "Public API Requests and Modals",
             "description": "Team Treehouse Techdegree Project built to display proficiency with utilizing public api requests and modals.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": ["HTML", "CSS", "JavaScript", "Fetch API", "Modals"],
             "live_link": "https://kr4sh3.github.io/techdegree-project-5-public-api-request/",
             "github_link": "https://github.com/Kr4sh3/techdegree-project-5-public-api-request",
             "thumbnail": "/static/images/project-5/project-5.png",
             "image_urls": ["/static/images/project-5/techdegree-project-5-1.png","/static/images/project-5/techdegree-project-5-2.png","/static/images/project-5/techdegree-project-5-3.png"]
+        },
+        {
+            "id": "6",
+            "project_name": "Static Node.js and Express Site",
+            "description": "Team Treehouse Techdegree Project built to display proficiency with building server side web applications that deliver static files using node and express.",
+            "technologies": ["JavaScript", "Node.js", "Express", "Pug"],
+            "live_link": "https://techdegree-project-6-static-node-express.onrender.com/",
+            "github_link": "https://github.com/Kr4sh3/techdegree-project-6-static-node-express-site",
+            "thumbnail": "/static/images/project-6/project-6.png",
+            "image_urls": ["/static/images/project-6/techdegree-project-6-1.png","/static/images/project-6/techdegree-project-6-2.png","/static/images/project-6/techdegree-project-6-3.png"]
+        },
+        {
+            "id": "7",
+            "project_name": "React Gallery App",
+            "description": "Team Treehouse Techdegree Project built to display proficiency with building front end applications utilizing react.",
+            "technologies": ["React", "JavaScript", "Fetch API", "Vite"],
+            "live_link": "https://techdegree-project-7-react-gallery-app.vercel.app/",
+            "github_link": "https://github.com/Kr4sh3/techdegree-project-7-react-gallery-app",
+            "thumbnail": "/static/images/project-7/project-7.png",
+            "image_urls": ["/static/images/project-7/techdegree-project-7.png"]
         }
     ]
 }
